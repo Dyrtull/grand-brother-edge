@@ -1,0 +1,39 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# ⚠️ IMPORTANTE: Ignorar ambiente virtual
+venv/
+env/
+*.venv
+
+# Data y modelos (demasiado grandes para git)
+data/
+models/*.pt
+models/*.onnx
+logs/*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# --- Grand Brother Specifics ---
+# Privacidad: NUNCA subir fotos de personas
+known_faces/
+
+# Logs y Datos generados
+logs/
+*.csv
+
+# Modelos de IA (pesados)
+*.pt
+*.onnx
